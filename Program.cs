@@ -13,6 +13,7 @@ internal class Program
     {
         int number = array[0];
         int number2 = array[0];
+        int number3 = array[0];
         for (int i = 0; i < array.Length; i++)
         {
 
@@ -29,6 +30,15 @@ internal class Program
             }
         }
         Console.WriteLine("Arraydagi 2-eng katta son: " + number2);
+        
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (array[i] > number3 && array[i] != number && array[i] != number2)
+            {
+                number3 = array[i];
+            }
+        }
+        Console.WriteLine("Arraydagi 3-eng katta son: " + number3);
     }
     public static void Main(string[] args)
     {
