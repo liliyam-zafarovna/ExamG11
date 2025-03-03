@@ -42,7 +42,7 @@ internal class Program
     }
     public static void Main(string[] args)
     {
-        int[] array = { 5, 12, 34, 13, 63, 59, 26, 94 };
+        int[] array = { 5, 12, 34, 13, 63, 59, 26, 94, 176, 98 };
         var newObject = new Program();
         newObject.MaxArray2(array);
     }
